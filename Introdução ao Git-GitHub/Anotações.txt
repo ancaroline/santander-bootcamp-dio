@@ -1,0 +1,6 @@
+Os comandos git add --all e git add ., podem parecer iguais mas fazem ações bem diferentes:
+
+git add --all: adiciona ao staging arquivos desde a raiz do repositório passando por todos os subdiretórios, e aqui está a diferença, não importa se você está na raiz ou no sub-diretório.
+
+git add .: usando o ponto, será adicionado ao stagging somente os arquivos a partir do diretório que você está, e os sub-diretórios deste.
+
