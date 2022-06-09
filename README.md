@@ -7,6 +7,6 @@ Desafio de Projeto sobre Git/GitHub
 - Pasta contendo:
    > Anotações
 
-## Introdução a criação de websites##
+## Introdução a criação de websites
 - Pasta contendo:
    > Site pessoal em HTML
