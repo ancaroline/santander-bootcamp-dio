@@ -4,7 +4,8 @@ Desafio de Projeto sobre Git/GitHub
 ===========
 
 ## Introdução ao Git/Github
-- Pasta com anotações
+- Pasta contendo:
+   > Anotações
 
 ## Introdução a criação de websites##
 - Pasta contendo:
