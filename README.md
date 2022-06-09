@@ -4,9 +4,9 @@ Desafio de Projeto sobre Git/GitHub
 ---
 
 ## Introdução ao Git/Github
-- Pasta contendo:
+👉 Pasta contendo:
    > Anotações
 
 ## Introdução a criação de websites
-- Pasta contendo:
+👉 Pasta contendo:
    > Site pessoal em HTML
