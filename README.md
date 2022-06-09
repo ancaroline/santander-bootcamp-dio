@@ -1,7 +1,7 @@
 # Santander Bootcamp Dio
 Desafio de Projeto sobre Git/GitHub
 
-===========
+---
 
 ## Introdução ao Git/Github
 - Pasta contendo:
