@@ -1,11 +1,14 @@
 body {
     background: #f7f7f7;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
     border-radius: 50%;
     border: 1px solid #505050;
+    margin-top: 5px;
 }
 
 #title, .subtitle, .post_title {
@@ -41,11 +44,21 @@ a {
     margin: 0;
     margin: 15px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .post_image {
     margin: 0;
     margin-bottom: 15px;
+    width: 100%;
 }
 
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+}
 
