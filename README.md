@@ -13,5 +13,5 @@ Desafio de Projeto sobre Git/GitHub 🔥
 ## Posicionando de elementos
 👉 Pasta contendo:
    > Fundamentos do Flexbox
-    -- Display-flex
-    -- Flex-direction
+    (-) Display-flex
+    (-) Flex-direction
