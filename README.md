@@ -10,7 +10,7 @@ Desafio de Projeto sobre Git/GitHub 🔥
 👉 Pasta contendo:
    > Site pessoal em HTML
    
-## Posicionamento de elementos
+## Posicionando de elementos
 👉 Pasta contendo:
    > Fundamentos do Flexbox
     -- Display-flex
