@@ -25,6 +25,10 @@ a {
     color: #505050;
 }
 
+a:hover {
+    color: crimson;
+}
+
 .post_title {
     font-size: 16px;
     font-style: italic;
@@ -61,4 +65,3 @@ a {
 .contacts_list li a {
     text-decoration: none;
 }
-
