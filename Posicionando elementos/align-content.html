@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1">
+        <tittle>Fundamentos - align content</tittle>
+
+        <style>
+            .container{
+                height: 400px;
+                max-width: 300px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid black;
+            }
+
+            .item {
+                background-color: orange;
+                padding: 0 5px;
+                flex: 1;
+                text-align: center;
+                color: white;
+                margin: 5px;
+            }
+            .stretch {
+                align-content: stretch;
+            }
+            .center {
+                align-content: center;
+            }
+            .flex-start{
+                align-content: flex-start;
+            }
+            .flex-end {
+                align-content: flex-end;
+            }
+            .space-between {
+                align-content: space-between;
+            }
+            .space-around{
+                align-content: space-around;
+            }
+            h2 {
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>stretch</h2>
+        <div class="container stretch">
+            <div class="item">align content</div>
+            <div class="item">align contentalign content</div>
+            <div class="item">align contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+        </div>
+        <h2>center</h2>
+        <div class="container center">
+            <div class="item">align content</div>
+            <div class="item">align contentalign content</div>
+            <div class="item">align contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+        </div>
+        <h2>flex-start</h2>
+        <div class="container flex-start">
+            <div class="item">align content</div>
+            <div class="item">align contentalign content</div>
+            <div class="item">align contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+        </div>
+        <h2>flex-end</h2>
+        <div class="container flex-end">
+            <div class="item">align content</div>
+            <div class="item">align contentalign content</div>
+            <div class="item">align contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+        </div>
+        <h2>space-between</h2>
+        <div class="container space-between">
+            <div class="item">align content</div>
+            <div class="item">align contentalign content</div>
+            <div class="item">align contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+        </div>
+        <h2>space-around</h2>
+        <div class="container space-around">
+            <div class="item">align content</div>
+            <div class="item">align contentalign content</div>
+            <div class="item">align contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign contentalign contentalign content</div>
+            <div class="item">align contentalign contentalign contentalign content</div>
+        </div>
+    </body>
+</html>

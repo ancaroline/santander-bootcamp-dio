@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1">
+        <tittle>Fundamentos - align items</tittle>
+
+        <style>
+            .container {
+                max-width: 350px;
+                border: 1px solid black;
+                display: flex;
+            }
+            .item {
+                background-color: pink;
+                margin: 5px;
+                color: black;
+                text-align: center;
+                flex: 1;
+            }
+            .flex {
+                flex: 1;
+            }
+            .center {
+                align-items: center;
+            }
+            .stretch {
+                align-items: stretch;
+            }
+            .flex-start {
+                align-items: flex-start;
+            }
+            .flex-end {
+                align-items: flex-end;
+            }
+            .baseline {
+                align-items: baseline;
+            }
+            .column {
+                flex-direction: column;
+            }
+            .central {
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+            }
+            .central .item {
+                flex: 0;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ROW</h1>
+        <h2>center</h2>
+        <section class="container center flex">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text uahdua uebwe abdye yeyqebq</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>stretch</h2>
+        <section class="container center stretch">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>flex-start</h2>
+        <section class="container center flex-start">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>flex-end</h2>
+        <section class="container center flex-end">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>baseline</h2>
+        <section class="container center baseline">
+            <div class="item"><br>item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+
+        <h1>COLUMN</h1>
+        <h2>center</h2>
+        <section class="container center flex column">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text uahdua uebwe abdye yeyqebq</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>stretch</h2>
+        <section class="container center stretch column">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>flex-start</h2>
+        <section class="container center flex-start column">
+            <div class="item">item 1</div>
+            <div class="item">dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>flex-end</h2>
+        <section class="container center flex-end column">
+            <div class="item">item 1</div>
+            <div class="item">Lorem Ipsum iy text L simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <h2>baseline</h2>
+        <section class="container center baseline column">
+            <div class="item"><br>item 1</div>
+            <div class="item">Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text</div>
+            <div class="item">item 3</div>
+        </section>
+        <p>alinhamento centra à tela</p>
+        <section class="container central center">
+            <div class="item">Ipsum is simplyorem Ipsum is simplyorem Ipsum is simplyorem Ipsum is simplyorem Ipsum is simply</div>
+        </section>
+    </body>
+</html>
