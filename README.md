@@ -18,5 +18,7 @@ Desafio de Projeto sobre Git/GitHub 🔥
     * Flex-direction
 
 ## Projeto Integrado
-👉 https://github.com/ancaroline/project-flexbox-dio-santander
-👉 https://ancaroline.github.io/project-flexbox-dio-santander
+👉 Link repositório
+   > https://github.com/ancaroline/project-flexbox-dio-santander
+👉 Link GitPages 
+   > https://ancaroline.github.io/project-flexbox-dio-santander
