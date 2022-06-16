@@ -16,6 +16,19 @@ Desafio de Projeto sobre Git/GitHub 🔥
    >
     * Display-flex
     * Flex-direction
+    * align-content
+    * align-items
+    * align-self
+    * display-flex
+    * flex-basis
+    * flex-direction
+    * flex-flow
+    * flex-grow
+    * flex-wrap
+    * flex-shrink
+    * flex
+    * justify-content
+    * order
 
 ## Projeto Integrado
 👉 Link repositório/GitPages
