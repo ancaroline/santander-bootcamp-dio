@@ -19,6 +19,6 @@ Desafio de Projeto sobre Git/GitHub 🔥
 
 ## Projeto Integrado
 👉 Link repositório
-   > https://github.com/ancaroline/project-flexbox-dio-santander
+   * https://github.com/ancaroline/project-flexbox-dio-santander
 👉 Link GitPages 
-   > https://ancaroline.github.io/project-flexbox-dio-santander
+   * https://ancaroline.github.io/project-flexbox-dio-santander
