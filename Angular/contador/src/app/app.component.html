@@ -1,0 +1,23 @@
+<h2 class="text-success text-center">Live angular diretivas</h2>
+
+<!--Diretiva de Atributo--->
+<div 
+[ngStyle]="{background: count < 6 ? '#FDC1F1' : '#76305A'}"
+[ngClass]="{custom: count > 6}">
+<h2 class="text-center">Contador: {{ count }}</h2>
+</div>
+
+<!--Diretivas Estruturais--->
+<h2 *ngIf="count > 7; else menor" class="text-center">O contador passou de 7!</h2>
+
+<ng-template #menor>
+  <h2 class="text-center">O contador é menor que 7!</h2>
+</ng-template>
+
+<ul [ngSwitch]="count" class="list-group mx-auto col-3">
+  <li class="list-group-item">1</li>
+  <li class="list-group-item">2</li>
+  <li class="list-group-item">3</li>
+  <li class="list-group-item">4</li>
+  <li class="list-group-item">5</li>
+</ul>

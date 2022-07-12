@@ -23,6 +23,7 @@ class ContaBancaria {
         if (valor > this._saldo){
             return "Operação negada";
         }
+        //se não,
         this.saldo = this.saldo - valor;
 
         return this._saldo;
