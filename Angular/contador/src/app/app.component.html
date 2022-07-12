@@ -18,22 +18,42 @@
   <li 
   class="list-group-item"
   *ngSwitchCase="3"
-  >É IGUAL A 3</li>
+  >trois</li>
   <li 
   class="list-group-item"
   *ngSwitchCase="5"
-  >É IGUAL A 5</li>
+  >five</li>
   <li 
   class="list-group-item"
   *ngSwitchCase="8"
-  >É IGUAL A 8</li>
+  >huit</li>
   <li 
   class="list-group-item"
   *ngSwitchCase="10"
-  >É IGUAL A 10</li>
+  >dez</li>
   <li 
   class="list-group-item"
   *ngSwitchCaseDefault
   >ESSE É O DEFAULT</li>
  
 </ul>
+
+<ul class="list-group mx-auto my-3 col-3">
+  <li 
+    class="list-group-item"
+    *ngFor="let idioma of idiomas"
+  >
+    Os números em {{ idioma.idioma }}: {{ idioma.traducao }}
+  </li>
+</ul>
+
+<!--Two way Data Binding-->
+
+<div class="col-4-mx-auto">
+  <input 
+    type="text" 
+    class="form-control text-center" 
+    placeholder="Digite mais traduções"
+    [(ngModel)]="text">
+  <p class="text-center">Saída: {{ text }}</p>
+</div>

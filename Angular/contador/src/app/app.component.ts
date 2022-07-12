@@ -8,6 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
   title = 'contador';
   count = 0;
+  text = ''; //two way data binding
+
+  idiomas = [
+    {
+      idioma: "Francês",
+      traducao: "un, deux, trois, quatre..."
+    },
+    {
+      idioma: "Inglês",
+      traducao: "one, two, three, four..."
+    },
+ 
+  ]
 
   constructor() {}
 
